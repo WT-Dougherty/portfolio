@@ -1,6 +1,4 @@
-import React from 'react';
-
-const About = (): React.JSX.Element => {
+const About = () => {
     return (
         <section id="about">
             <div className="about-content">
@@ -8,25 +6,22 @@ const About = (): React.JSX.Element => {
                 <div className="about-grid">
                     <div className="about-text">
                         <p>
-                            I'm a passionate Full-Stack Developer with a love for creating elegant, 
-                            user-friendly web applications. With expertise in modern web technologies, 
-                            I enjoy turning complex problems into simple, beautiful solutions.
+                            I'm a recent grad Software Developer with a love for creating elegant UIs, fast backends,
+                            and a seamless user experience. I'm capable of working across the tech-stack,
+                            having developed three-tier applications in both web and mobile environments.
                         </p>
                         <p>
-                            When I'm not coding, you can find me exploring new technologies, 
-                            contributing to open-source projects, or enjoying outdoor activities. 
-                            I believe in continuous learning and staying up-to-date with the latest 
-                            industry trends.
+                            I use AI to learn quickly and efficiently, utilizing dialog to fill gaps
+                            in my understanding of concepts. I believe in continuous learning, and I'm
+                            currently looking for a working environment where I can contribute meaningfully
+                            and leverage my skills to add value.
                         </p>
                         <div className="about-details">
                             <div className="detail-item">
-                                <strong>Experience:</strong> 3+ years in web development
+                                <strong>Education:</strong> Computer Science & Engineering major, Physics minor
                             </div>
                             <div className="detail-item">
-                                <strong>Education:</strong> Computer Science Degree
-                            </div>
-                            <div className="detail-item">
-                                <strong>Location:</strong> San Francisco, CA
+                                <strong>Location:</strong> Boston, MA; Open to Relocate
                             </div>
                         </div>
                     </div>

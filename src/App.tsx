@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css'
 import './index.css'
 import Navigation from './components/navigation'
@@ -8,7 +7,7 @@ import Skills from './sections/skills'
 import Projects from './sections/projects'
 import Contact from './sections/contact'
 
-function App(): React.JSX.Element {
+function App() {
   return (
     <>
       <Navigation />

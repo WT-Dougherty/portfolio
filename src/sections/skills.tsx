@@ -1,24 +1,27 @@
-import React from 'react';
-
+// type defs
 interface SkillCategory {
     category: string;
     skills: string[];
 }
 
-const Skills = (): React.JSX.Element => {
+const Skills = () => {
     const skillCategories: SkillCategory[] = [
         {
             category: "Frontend",
-            skills: ["React", "JavaScript", "HTML5", "CSS3", "TypeScript", "Tailwind CSS"]
+            skills: ["React (Native)", "JavaScript", "TypeScript", "HTML5", "CSS3"]
         },
         {
             category: "Backend",
-            skills: ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB"]
+            skills: ["Node.js", "Python", "FastAPI", "AWS Lambda", "DynamoDB", "PostgreSQL"]
+        },
+        {
+            category: "Data Analysis",
+            skills: ["NumPy", "Seaborn", "Matplotlib", "Pandas", "R", "Mathematica"]
         },
         {
             category: "Tools & Others",
-            skills: ["Git", "Docker", "AWS", "Vite", "Webpack", "Jest"]
-        }
+            skills: ["Git", "Docker", "Jira", 'Postman', "pgAdmin", "SSL", "Vite"]
+        },
     ];
 
     return (

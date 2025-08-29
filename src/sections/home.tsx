@@ -1,6 +1,6 @@
-import React from 'react';
+import { Link } from 'react-scroll';
 
-const Home = (): React.JSX.Element => {
+const Home = () => {
     return (
         <section id="home">
             <div className="home-content">
@@ -8,10 +8,9 @@ const Home = (): React.JSX.Element => {
                 <div className="home-text">
                     <h1>Will Dougherty</h1>
                     <h2>Full-Stack Developer</h2>
-                    <p>Passionate about creating innovative web solutions and building user-friendly applications</p>
                     <div className="home-buttons">
-                        <a href="#projects" className="btn">View My Work</a>
-                        <a href="#contact" className="btn">Get In Touch</a>
+                        <Link to="contact" className='btn' smooth={true} duration={500}>Get In Touch</Link>
+                        <Link to="projects" className="btn" smooth={true} duration={500}>View My Work</Link>
                     </div>
                 </div>
             </div>

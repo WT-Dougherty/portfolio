@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from "react-scroll";
 
-const Navigation = (): React.JSX.Element => {
+const Navigation = () => {
     return (
         <nav id="navigation">
             <ul>

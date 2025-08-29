@@ -7,7 +7,7 @@
   backdrop-filter: blur(8px);
   padding: 1rem 0;
   margin-top: 20px;
-
+  z-index: 1000;
 }
 
 #navigation ul {
@@ -121,8 +121,8 @@
 }
 
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 2rem;
 }
 
@@ -142,7 +142,6 @@
 
 .skill-tag {
   background-color: var(--color-accent1);
-  color: var(--font-color);
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -180,14 +179,8 @@
   padding: 2rem;
 }
 
-.project-info h3 {
-  color: var(--font-color);
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
 .project-info p {
-  color: #555;
+
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
@@ -253,7 +246,7 @@
   gap: 0.5rem;
 }
 
-/* Responsive design */
+/* styling for mobile */
 @media (max-width: 768px) {
   section {
     padding: 5rem 1rem 1rem;
