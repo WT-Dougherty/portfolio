@@ -1,0 +1,1 @@
+https://colorhunt.co/palette/fa7070fbf2cfc6ebc5a1c298
