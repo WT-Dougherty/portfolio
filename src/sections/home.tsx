@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <section id="home">
             <div className="home-content">
-                <img src="/src/assets/headshot.jpeg" alt="Will Dougherty" className="headshot" />
+                <img src="/headshot.jpeg" alt="Will Dougherty" className="headshot" />
                 <div className="home-text">
                     <h1>Will Dougherty</h1>
                     <h2>Full-Stack Developer</h2>

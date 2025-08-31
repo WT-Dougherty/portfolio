@@ -16,7 +16,7 @@ const Projects = () => {
             real-life social engagement. Slice aims to connect users with their immediate
             social circles, rather than with a collective global community.
             I'm prioritizing a seamless user experience and a low-cost backend, with the
-            goal of creating a comfortable ad-free environment. With Slice, you gain the benefits
+            goal of creating a comfortable, ad-free environment. With Slice, you gain the benefits
             of online connectivity that traditional social media platforms offer without having to
             expose yourself to the harmful features designed to keep you hyper-engaged.`,
             skills: ["React Native", "Typescript", "Node.js", "FastAPI", "Postgres", "Docker"],

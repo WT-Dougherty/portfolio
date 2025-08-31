@@ -6,12 +6,12 @@ const About = () => {
                 <div className="about-grid">
                     <div className="about-text">
                         <p>
-                            I'm a recent grad Software Developer with a love for creating elegant UIs, fast backends,
-                            and a seamless user experience. I'm capable of working across the tech-stack,
-                            having developed three-tier applications in both web and mobile environments.
+                            I'm a recent grad Software Developer with a passion for seamless, end-to-end,
+                            user experiences. I'm capable of working across the tech-stack, having developed
+                            three-tier applications in both web and mobile environments.
                         </p>
                         <p>
-                            I use AI to learn quickly and efficiently, utilizing dialog to fill gaps
+                            I use AI to learn quickly and efficiently, utilizing dialog with LLMs to fill gaps
                             in my understanding of concepts. I believe in continuous learning, and I'm
                             currently looking for a working environment where I can contribute meaningfully
                             and leverage my skills to add value.
