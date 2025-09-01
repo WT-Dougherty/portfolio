@@ -23,6 +23,10 @@ const Contact = () => {
                                 <strong>GitHub:</strong>
                                 <a href='https://github.com/WT-Dougherty' target="GitHub">github.com/WT-Dougherty</a>
                             </div>
+                            <div className="contact-item">
+                                <strong>Medium:</strong>
+                                <a href='https://medium.com/@willtdougherty' target="Medium">medium.com/@willtdougherty</a>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -19,9 +19,9 @@ p {
 
 /* 2. Base colors from your palette */
 :root {
-  --color-primary: #FA7070;
-  --color-background: #FBF2CF;
-  --color-accent1: #C6EBC5;
+  --color-primary: #E43636;
+  --color-background: #F6EFD2;
+  --color-accent1: #92e75a;
   --color-accent2: #333;
 }
 

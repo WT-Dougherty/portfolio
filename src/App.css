@@ -116,20 +116,21 @@
 /* Skills section */
 
 .skills-content {
-  max-width: 1000px;
+  margin-top: 2.5rem;
+  max-width: 950px;
   width: 100%;
 }
 
 .skills-grid {
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   gap: 2rem;
 }
 
 .skill-category {
   background-color: white;
   padding: 2rem;
-  border-radius: 15px;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -154,7 +155,7 @@
 }
 
 .projects-content {
-  max-width: 1200px;
+  max-width: 1100px;
   width: 100%;
 }
 
@@ -166,7 +167,7 @@
 
 .project-card {
   background-color: var(--color-background);
-  border-radius: 15px;
+  border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease;
 }
