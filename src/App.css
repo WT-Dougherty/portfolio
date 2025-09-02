@@ -74,8 +74,8 @@
 }
 
 .headshot {
-  width: 200px;
-  height: 200px;
+  width: 16rem;
+  aspect-ratio: 1;
   border-radius: 50%;
   margin-bottom: 2rem;
   border: 2px solid var(--color-primary);
@@ -264,6 +264,10 @@
   .home-buttons {
     flex-direction: column;
     align-items: center;
+  }
+  .headshot {
+    width: 60%;
+    aspect-ratio: 1;
   }
   
   .skills-grid,

@@ -7,20 +7,24 @@ interface SkillCategory {
 const Skills = () => {
     const skillCategories: SkillCategory[] = [
         {
-            category: "Frontend",
-            skills: ["React (Native)", "JavaScript", "TypeScript", "HTML5", "CSS3"]
+            category: "Languages",
+            skills: ["Python", "JavaScript", "C/C++", "TypeScript", "R", "HTML5", "CSS3"]
         },
         {
-            category: "Backend",
-            skills: ["Node.js", "Python", "FastAPI", "AWS Lambda", "DynamoDB", "PostgreSQL"]
+            category: "Frameworks/ Libraries",
+            skills: ["React (Native)", "Node.js", "FastAPI"]
         },
         {
-            category: "Data Analysis",
-            skills: ["NumPy", "Seaborn", "Matplotlib", "Pandas", "R", "Mathematica"]
+            category: "Databases",
+            skills: ["PostgreSQL", "DynamoDB"]
         },
         {
-            category: "Tools & Others",
-            skills: ["Git", "Docker", "Jira", 'Postman', "pgAdmin", "SSL", "Vite"]
+            category: "Cloud & DevOps",
+            skills: ["AWS Lambda, API Gateway, S3", "Docker", "Git"],
+        },
+        {
+            category: "Tools & Technologies",
+            skills: ["Postman", "pgAdmin", "Vite", "Jira", "REST", "JSON", "JWT", "Figma"],
         },
     ];
 

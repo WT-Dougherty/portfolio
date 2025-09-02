@@ -19,7 +19,7 @@ const Projects = () => {
             goal of creating a comfortable, ad-free environment. With Slice, you gain the benefits
             of online connectivity that traditional social media platforms offer without having to
             expose yourself to the harmful features designed to keep you hyper-engaged.`,
-            skills: ["React Native", "Typescript", "Node.js", "FastAPI", "Postgres", "Docker"],
+            skills: ["Typescript", "React Native", "Node.js", "FastAPI", "Postgres", "Docker"],
             repo_path: '/SliceSocial-Frontend',
         },
     ];
