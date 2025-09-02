@@ -18,7 +18,7 @@ const About = () => {
                         </p>
                         <div className="about-details">
                             <div className="detail-item">
-                                <strong>Education:</strong> Computer Science & Engineering major, Physics minor; <em>Magna Cum Laude</em>
+                                <strong>Education:</strong> UConn Computer Science & Engineering major, Physics minor; <em>Magna Cum Laude</em>
                             </div>
                             <div className="detail-item">
                                 <strong>Location:</strong> Boston, MA; Open to Relocate
