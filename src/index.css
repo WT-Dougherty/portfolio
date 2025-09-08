@@ -1,11 +1,11 @@
-/* 1. Reset / Normalize */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -14,20 +14,19 @@ p {
   margin-bottom: 1.5rem;
   line-height: 1.8;
   color: var(--color-accent2);
-
 }
 
-/* 2. Base colors from your palette */
 :root {
-  --color-primary: #E43636;
-  --color-background: #F6EFD2;
+  --color-primary: #e43636;
+  --color-background: #f6efd2;
   --color-accent1: #92e75a;
   --color-accent2: #333;
 }
 
 /* 3. Global typography and base styles */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
   background-color: var(--color-background);
   color: var(--color-accent2);
   line-height: 1.6;
@@ -45,7 +44,12 @@ section {
 }
 
 /* 5. Typography hierarchy */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 0.5em;
@@ -58,11 +62,15 @@ h2 {
   font-size: 2.5rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: var(--color-primary);
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--color-accent2);
   margin-bottom: 1rem;
   font-size: 1.5rem;
