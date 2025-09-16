@@ -42,7 +42,7 @@ const Projects = () => {
       skills: ["Typescript", "Scrum"],
       repo_path: "/ScrumMasterAgent",
       doc_path:
-        "https://github.com/WT-Dougherty/ScrumMasterAgent/blob/249fb8763cde14c1ed2e4601e0a46913929d5058/README.md",
+        "/ScrumMasterAgent/blob/249fb8763cde14c1ed2e4601e0a46913929d5058/README.md",
     },
   ];
 
