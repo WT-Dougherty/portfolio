@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Headshot } from './pages/about/components/headshot/headshot';
+import { ParticleGrid } from './shared/particle-background/component/particle-grid/particle-grid';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Headshot],
+  imports: [RouterOutlet, ParticleGrid],
   templateUrl: './app.html',
 })
 export class App {
