@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BlogPage } from './blog-page';
+import { SocialLink } from './social-link';
 
-describe('BlogPage', () => {
-  let component: BlogPage;
-  let fixture: ComponentFixture<BlogPage>;
+describe('SocialLink', () => {
+  let component: SocialLink;
+  let fixture: ComponentFixture<SocialLink>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BlogPage],
+      imports: [SocialLink],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(BlogPage);
+    fixture = TestBed.createComponent(SocialLink);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

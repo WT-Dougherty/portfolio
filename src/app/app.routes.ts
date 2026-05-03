@@ -2,7 +2,6 @@ import { Routes } from '@angular/router';
 import { HomePage } from './pages/home/components/home-page/home-page';
 import { ContactPage } from './pages/contact/components/contact-page/contact-page';
 import { WorkPage } from './pages/work/components/work-page/work-page';
-import { BlogPage } from './pages/blog/components/blog-page/blog-page';
 
 export const routes: Routes = [
   {
@@ -19,10 +18,6 @@ export const routes: Routes = [
     path: 'contact',
     component: ContactPage,
     title: 'Contact Me',
-  },
-  {
-    path: 'blog',
-    redirectTo: '',
   },
   {
     path: '**',
