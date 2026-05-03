@@ -5,6 +5,7 @@ import {
   HostListener,
   OnInit,
   ViewChild,
+  ViewEncapsulation,
 } from '@angular/core';
 import { Body, Composite, Engine, Events, Render, Runner } from 'matter-js';
 import { Particle } from '../../particle/particle';
@@ -25,6 +26,7 @@ const GRID_SPACING = 60;
   selector: 'app-particle-grid',
   imports: [],
   templateUrl: './particle-grid.html',
+  encapsulation: ViewEncapsulation.None,
 })
 export class ParticleGrid implements OnInit, AfterViewInit {
   @ViewChild('stage') stageRef!: ElementRef<HTMLDivElement>;
