@@ -1,1 +1,11 @@
-
+<div class="flex justify-center hover:scale-105 transition-transform duration-300">
+  <a
+    [href]="href()"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="flex flex-row items-center gap-4"
+  >
+    <img [src]="'socials/' + icon()" class="h-16 md:h-24" />
+    <p class="text-blue-300 text-xl">{{ name() }}</p>
+  </a>
+</div>
