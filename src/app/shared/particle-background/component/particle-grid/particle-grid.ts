@@ -78,29 +78,27 @@ export class ParticleGrid implements OnInit, AfterViewInit {
       this.mouseSpeed = 0;
     };
 
-    this.render.canvas.addEventListener('mousemove', (e: MouseEvent) => {
+    window.addEventListener('mousemove', (e: MouseEvent) => {
       updatePointer(e.clientX, e.clientY);
     });
-    this.render.canvas.addEventListener('mouseleave', deactivatePointer);
+    document.addEventListener('mouseleave', deactivatePointer);
 
-    this.render.canvas.addEventListener(
+    window.addEventListener(
       'touchstart',
       (e: TouchEvent) => {
-        e.preventDefault();
         updatePointer(e.touches[0].clientX, e.touches[0].clientY);
       },
-      { passive: false },
+      { passive: true },
     );
-    this.render.canvas.addEventListener(
+    window.addEventListener(
       'touchmove',
       (e: TouchEvent) => {
-        e.preventDefault();
         updatePointer(e.touches[0].clientX, e.touches[0].clientY);
       },
-      { passive: false },
+      { passive: true },
     );
-    this.render.canvas.addEventListener('touchend', deactivatePointer);
-    this.render.canvas.addEventListener('touchcancel', deactivatePointer);
+    window.addEventListener('touchend', deactivatePointer);
+    window.addEventListener('touchcancel', deactivatePointer);
 
     Events.on(this.engine, 'beforeUpdate', () => {
       for (let i = 0; i < this.particles.length; i++) {
