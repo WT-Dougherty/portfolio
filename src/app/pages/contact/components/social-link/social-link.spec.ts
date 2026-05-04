@@ -13,6 +13,10 @@ describe('SocialLink', () => {
 
     fixture = TestBed.createComponent(SocialLink);
     component = fixture.componentInstance;
+    fixture.componentRef.setInput('icon', 'github');
+    fixture.componentRef.setInput('name', 'GitHub');
+    fixture.componentRef.setInput('href', 'https://github.com');
+    fixture.detectChanges();
     await fixture.whenStable();
   });
 
