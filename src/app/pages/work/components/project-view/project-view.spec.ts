@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { provideMarkdown } from 'ngx-markdown';
 
 import { ProjectView } from './project-view';
 
@@ -9,6 +10,7 @@ describe('ProjectView', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [ProjectView],
+      providers: [provideMarkdown()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(ProjectView);

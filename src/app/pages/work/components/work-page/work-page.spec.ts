@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { provideMarkdown } from 'ngx-markdown';
 
 import { WorkPage } from './work-page';
 
@@ -9,6 +10,7 @@ describe('WorkPage', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [WorkPage],
+      providers: [provideMarkdown()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(WorkPage);
