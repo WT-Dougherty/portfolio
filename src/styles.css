@@ -13,3 +13,58 @@
 @theme {
   --font-ButlerPro: 'ButlerPro', sans-serif;
 }
+
+/* Styling for markdown display */
+app-project-view markdown {
+  @apply block max-w-2xl mx-auto mt-10 px-8 md:px-6 py-8 font-ButlerPro text-blue-400;
+
+  h1 {
+    @apply text-2xl md:text-4xl;
+  }
+
+  h2 {
+    @apply text-xl md:text-3xl mt-8 mb-4;
+  }
+
+  h3 {
+    @apply text-lg md:text-2xl mt-6 mb-2;
+  }
+
+  /* date */
+  h6 {
+    @apply text-sm text-blue-200 mb-4;
+  }
+
+  p {
+    @apply text-base md:text-xl leading-relaxed mb-5;
+  }
+
+  a {
+    @apply text-blue-300 underline underline-offset-2 hover:text-blue-200;
+  }
+
+  img {
+    @apply w-full rounded-lg my-6;
+  }
+
+  ul,
+  ol {
+    @apply text-lg md:text-xl leading-relaxed pl-6 mb-5;
+  }
+
+  li {
+    @apply mb-2;
+  }
+
+  blockquote {
+    @apply border-l-2 border-blue-400 pl-4 opacity-80;
+  }
+
+  code {
+    @apply text-blue-300 font-mono text-sm;
+  }
+
+  pre {
+    @apply rounded-md p-4 overflow-x-auto mb-5;
+  }
+}

@@ -1,8 +1,10 @@
 # Ray Tracer
 
+###### Last Updated: June 2025
+
 ![8K Image](/projects/images/ray-tracer-1.jpeg '8K Image')
 
-# Implementation:
+## Implementation:
 
 This is a large project with lots of classes, and there are many intricicies that I could discuss. My goal in this section is to give a general overview (without going too much into specific detail) of how components of the ray tracer interact to generate a final image.
 
@@ -14,13 +16,15 @@ Next, I constructed a matter class that I used to represent different objects in
 
 You might be wondering: if the rays originated from the camera, how could the camera "see" rays that hit objects? It seems unlikely that rays would come back towards the camera. The important distinction to make is that rays are traced _backwards_. When we shoot rays through each pixel of the viewport, we're effectively asking: what object is visible along this line of sight? If there's a sphere in front of the camera, the ray will intersect it, and we then simulate how light from the environment would reflect off that point on the sphere and ultimately reach the camera.
 
-# Future Expansions:
+## Future Expansions:
 
 There is a lot I could add to the ray tracer. Right now, the camera is locked in place at the origin. Many ray tracers have movable cameras because they're often used in video games. The camera is essentially the player, and the viewport is the player's field of view. However, I'm currently only rendering static images, so any change in perspective could be equally achieved by rendering the spheres in a different orientation. Along with a moving perspective and continuous scene, I could implement different shapes, glass objects, light-emitting objects, etc.
 
 I rendered an 8k image and attached it to the top of this file. It took about 3 minutes to render on my Macbook Pro M2. With that being said, I didn't utilize parallel processing/ multi-threading, and I also didn't utilize my graphics card. I did the entire render on my processor. If I spent more time allocating my computer's resources properly, I could significantly improve efficiency.
 
-# References:
+[GitHub Repo](https://github.com/WT-Dougherty/ray-tracer)
+
+## References:
 
 [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 
