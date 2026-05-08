@@ -3771,6 +3771,11 @@ make-fetch-happen@^15.0.0, make-fetch-happen@^15.0.1, make-fetch-happen@^15.0.4:
     proc-log "^6.0.0"
     ssri "^13.0.0"
 
+marked@^18.0.0:
+  version "18.0.3"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-18.0.3.tgz#278b5ba89f1c7ccbaf0422f3ee8955928489220b"
+  integrity sha512-7VT90JOkDeaRWpfjOReRGPEKn0ecdARBkDGL+tT1wZY0efPPqkUxLUSmzy/C7TIylQYJC9STISEsCHrqb/7VIA==
+
 math-intrinsics@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz#a0dd74be81e2aa5c2f27e65ce283605ee4e2b7f9"
@@ -3928,6 +3933,13 @@ negotiator@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-1.0.0.tgz#b6c91bb47172d69f93cfd7c357bbb529019b5f6a"
   integrity sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==
+
+ngx-markdown@^21.3.0:
+  version "21.3.0"
+  resolved "https://registry.yarnpkg.com/ngx-markdown/-/ngx-markdown-21.3.0.tgz#c4874ec5f3c054a678e196f16704ebbe2c47bc4b"
+  integrity sha512-HYh31RnDqu9YnMffi5CiHUqzVrucIbURJjx4/YWpuQoQkuR8Otz0CN8M0Bx6rfxDVZ7j3LmNqqlJ/YxvMKizXg==
+  dependencies:
+    tslib "^2.3.0"
 
 node-addon-api@^6.1.0:
   version "6.1.0"
@@ -4264,6 +4276,11 @@ prettier@^3.8.3:
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.8.3.tgz#560f2de55bf01b4c0503bc629d5df99b9a1d09b0"
   integrity sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==
+
+prismjs@^1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.30.0.tgz#d9709969d9d4e16403f6f348c63553b19f0975a9"
+  integrity sha512-DEvV2ZF2r2/63V+tK8hQvrR2ZGn10srHbXviTlcv7Kpzw8jWiNTqbVgjO3IY8RxrrOUF8VPMQQFysYYYv0YZxw==
 
 proc-log@^6.0.0, proc-log@^6.1.0:
   version "6.1.0"

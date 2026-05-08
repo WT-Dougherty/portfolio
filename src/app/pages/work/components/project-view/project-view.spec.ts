@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideMarkdown } from 'ngx-markdown';
 
-import { WorkPage } from './work-page';
+import { ProjectView } from './project-view';
 
-describe('WorkPage', () => {
-  let component: WorkPage;
-  let fixture: ComponentFixture<WorkPage>;
+describe('ProjectView', () => {
+  let component: ProjectView;
+  let fixture: ComponentFixture<ProjectView>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [WorkPage],
+      imports: [ProjectView],
       providers: [provideMarkdown()],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(WorkPage);
+    fixture = TestBed.createComponent(ProjectView);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
