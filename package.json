@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:complete": "ng test --watch=false",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "predeploy": "yarn build && cp CNAME dist/",
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "packageManager": "yarn@1.22.22",
