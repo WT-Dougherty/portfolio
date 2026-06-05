@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:complete": "ng test --watch=false",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "predeploy": "yarn build && cp CNAME dist/portfolio/browser/",
+    "deploy": "gh-pages -d dist/portfolio/browser"
   },
   "private": true,
   "packageManager": "yarn@1.22.22",
@@ -19,6 +21,7 @@
     "@angular/forms": "^21.2.0",
     "@angular/platform-browser": "^21.2.0",
     "@angular/router": "^21.2.0",
+    "gh-pages": "^6.3.0",
     "marked": "^18.0.0",
     "matter-js": "^0.20.0",
     "ngx-markdown": "^21.3.0",
