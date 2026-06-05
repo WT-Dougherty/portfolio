@@ -8,6 +8,8 @@ on:
 jobs:
   CI:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -18,10 +20,11 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Configure git identity
+      - name: Configure git credentials
         run: |
           git config --global user.email "doughertyw25@gmail.com"
           git config --global user.name "Will Dougherty"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/WT-Dougherty/portfolio.git
 
       - name: Deploy
         run: yarn deploy
