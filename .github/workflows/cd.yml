@@ -18,5 +18,10 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Lint
+      - name: Configure git identity
+        run: |
+          git config --global user.email "doughertyw25@gmail.com"
+          git config --global user.name "Will Dougherty"
+
+      - name: Deploy
         run: yarn deploy
